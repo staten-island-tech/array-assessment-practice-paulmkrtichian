@@ -92,6 +92,8 @@ const titles = [
 //sort books alphabetically
 
 //Find who wrote War and Peace
+const warandpeace = books.filter((creator) => creator.authorFirst === "Leo");
+console.log(warandpeace);
 
 //how many books were written before 1900?
 
